@@ -4,7 +4,7 @@ This project aims to predict the age of a person based on their facial images us
 
 ## Installation
 
-1. **Clone the repository"**
+1. **Clone the repository**
    ```bash
    git clone https://github.com/yourusername/your-repository.git
    cd your-repository
@@ -21,13 +21,6 @@ This project aims to predict the age of a person based on their facial images us
      Run the script. Execute the Python script to load the data, train the models, and evaluate the results.
      ```bash
      python script.py
-
- The script performs the following tasks:
-    i. Loads and preprocesses the facial images.
-    ii. Splits the dataset into training and testing sets.
-    iii. Builds and trains a CNN model to extract features from the images.
-    iv. Uses the extracted features to train an SVR model for predicting the age.
-    v. Evaluates the models and displays the results.
 
  Sample Output: 
     After running the script, the Mean Absolute Error (MAE) of the predictions on the test set will be displayed. Additionally, a few sample predictions will be visualized with the actual and predicted ages.
