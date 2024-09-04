@@ -14,16 +14,16 @@ This project aims to predict the age of a person based on their facial images us
     ```bash
    pip install numpy matplotlib pillow tensorflow scikit-learn
     
-4. **Dataset Structure:**
-     The dataset should be organized in a way where each folder is named after the age it represents, containing images of people of that age.
+3. **Dataset Structure:**
+   The dataset should be organized in a way where each folder is named after the age it represents, containing images of people of that age.
 
-5. **Usage**
-     Run the script. Execute the Python script to load the data, train the models, and evaluate the results.
+4. **Usage:**
+   Run the script. Execute the Python script to load the data, train the models, and evaluate the results.
      ```bash
      python script.py
 
- Sample Output: 
-    After running the script, the Mean Absolute Error (MAE) of the predictions on the test set will be displayed. Additionally, a few sample predictions will be visualized with the actual and predicted ages.
+5. **Sample Output:** 
+   After running the script, the Mean Absolute Error (MAE) of the predictions on the test set will be displayed. Additionally, a few sample predictions will be visualized with the actual and predicted ages.
     
 ## Results
 
