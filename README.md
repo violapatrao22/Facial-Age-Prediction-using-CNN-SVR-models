@@ -4,16 +4,17 @@ This project aims to predict the age of a person based on their facial images us
 
 ## Installation
 
-1. **Clone the repository:**
+1. **Clone the repository**
    ```bash
    git clone https://github.com/yourusername/your-repository.git
    cd your-repository
 
-2. **Install the required Python packages:** Make sure you have Python installed, then install the necessary libraries using pip:
+2. **Install the required Python packages**
+   Make sure you have Python installed, then install the necessary libraries using pip:
     ```bash
    pip install numpy matplotlib pillow tensorflow scikit-learn
     
-3. **Dataset Structure:**
+4. **Dataset Structure**
      The dataset should be organized in a way where each folder is named after the age it represents, containing images of people of that age.
 
 5. **Usage**
