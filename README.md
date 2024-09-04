@@ -4,32 +4,32 @@ This project aims to predict the age of a person based on their facial images us
 
 ## Installation
 
-1. **Clone the repository**
+1. **Clone the repository"**
    ```bash
    git clone https://github.com/yourusername/your-repository.git
    cd your-repository
 
-2. **Install the required Python packages**
+2. **Install the required Python packages:**
    Make sure you have Python installed, then install the necessary libraries using pip:
     ```bash
    pip install numpy matplotlib pillow tensorflow scikit-learn
     
-4. **Dataset Structure**
+4. **Dataset Structure:**
      The dataset should be organized in a way where each folder is named after the age it represents, containing images of people of that age.
 
 5. **Usage**
-     Run the script: Execute the Python script to load the data, train the models, and evaluate the results.
+     Run the script. Execute the Python script to load the data, train the models, and evaluate the results.
      ```bash
      python script.py
 
- 5.1 The script performs the following tasks:
+ The script performs the following tasks:
     i. Loads and preprocesses the facial images.
     ii. Splits the dataset into training and testing sets.
     iii. Builds and trains a CNN model to extract features from the images.
     iv. Uses the extracted features to train an SVR model for predicting the age.
     v. Evaluates the models and displays the results.
 
- 5.2 Sample Output: 
+ Sample Output: 
     After running the script, the Mean Absolute Error (MAE) of the predictions on the test set will be displayed. Additionally, a few sample predictions will be visualized with the actual and predicted ages.
     
 ## Results
